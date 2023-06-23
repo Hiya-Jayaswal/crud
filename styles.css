@@ -1,0 +1,50 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav h1{
+    color:olivedrab;
+    margin: 0;
+    font-size: 24px;
+    text-align: justify;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    color: rgb(0, 92, 40);
+
+}
+.nav li{
+    padding-left: 18px;
+    padding-top: 15px;
+}
+.form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid darkcyan;
+}
+
+.form-button{
+    height: 25px;
+    border: 1px solid forestgreen;
+    font-weight: bold;
+    cursor: pointer;
+    color: forestgreen;
+}
+.msg{
+    color:lightsalmon;
+    text-align: center;
+}

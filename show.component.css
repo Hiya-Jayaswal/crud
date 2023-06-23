@@ -1,0 +1,28 @@
+table{
+    text-align: left;
+    color: chocolate;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-spacing: 0px;
+    
+}
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 10%;
+}
+td,th{
+    padding:2px, 10px;
+    min-width: 160px;
+    text-align: left;
+    vertical-align: middle;
+    margin: 5px;
+    border:2px solid blue;
+    white-space: nowrap;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+}

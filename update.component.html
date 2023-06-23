@@ -1,0 +1,14 @@
+<nav>
+    <div class = "update">
+            <h1>Update page</h1> 
+            <form #addemp ="ngForm" (ngSubmit)= "submit(addemp.value)" class = "form">
+                <input class = "form-input" type="text" ngModel name = "{{productData?.name}}" placeholder="enter product name"/>
+                <input class = "form-input" type="text" ngModel name="{{productData?.price}}" placeholder="enter price"/>
+                <input class = "form-input" type ="text" ngModel name = "{{productData?.color}}" placeholder="Enter color"/>
+                <textarea class = "form-input" type="text" ngModel name="{{productData?.description}}" placeholder="enter decription"></textarea>
+                <input class = "form-input" type ="text" ngModel name = "{{productData?.image}}" placeholder="Enter image url"/>
+                <button class = "form-button" >Update</button>
+            </form>
+        </div>
+    </nav>
+    

@@ -1,0 +1,16 @@
+<nav>
+<div class = "Add">
+    <div class = "add">
+        <h1>Add page</h1> 
+        <p class = "msg"> {{addMessage}}</p>
+        <form #addemp ="ngForm" (ngSubmit)= "add(addemp.value)" class = "form">
+            <input class = "form-input" type="text" ngModel name = "name" placeholder="enter product name"/>
+            <input class = "form-input" type="text" ngModel name="price" placeholder="enter price"/>
+            <input class = "form-input" type ="text" ngModel name = "color" placeholder="Enter color"/>
+            <textarea class = "form-input" type="text" ngModel name="description" placeholder="enter decription"></textarea>
+            <input class = "form-input" type ="text" ngModel name = "image" placeholder="Enter image url"/>
+            <button class = "form-button" >Add</button>
+        </form>
+    </div>
+    </div>
+</nav>

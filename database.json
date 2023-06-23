@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "name": "tshirt",
+      "price": "300",
+      "color": "black",
+      "description": "A black oversized graphics logo tshirt",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fthebongcollections.in%2Fproduct%2Fnaruto-black-tshirt%2F&psig=AOvVaw0xtW1bYFwH7JRSiMugGh69&ust=1687082457462000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKDMsaKHyv8CFQAAAAAdAAAAABAE",
+      "id": 1
+    },
+    {
+      "name": "jeans",
+      "price": "1200",
+      "color": "blue",
+      "description": "a ripped jeans",
+      "image": "",
+      "id": 4
+    },
+    {
+      "name": "spoon",
+      "price": "75",
+      "color": "grey",
+      "description": "Table spoon",
+      "image": "",
+      "id": 5
+    }
+  ]
+}
